@@ -4,7 +4,7 @@
       <div id="progress-indicator"></div>
     </div>
 
-    <Banner />
+    <Banner v-if="showBanner === true" />
     <!-- <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> -->
   </div>
@@ -26,6 +26,11 @@ export default {
   components: {
     Footer, 
     Banner
+  },
+  data: function() {
+    return {
+      showBanner: false
+    }
   }
 }
 </script>
@@ -43,7 +48,7 @@ body {
   letter-spacing: -0.004em;
   font-kerning: normal;
   font-variant-ligatures: contextual common-ligatures;
-  font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
+  font-feature-settings: 'kern', 'liga', 'calt';
   height: auto;
 }
 
@@ -56,8 +61,6 @@ h1 {
   font-family: "Fira Code", "Fira Mono", monospace;
   text-align: center;
   font-size: 5vw;
-  text-decoration: underline;
-  text-decoration-color: yellow;
 }
 
 h2, h3, h4, h5, h6 {
@@ -67,6 +70,7 @@ h2, h3, h4, h5, h6 {
 a {
   color: #6b17e6;
   transition: opacity .2s;
+  isolation: isolate;
 }
 
 #top {

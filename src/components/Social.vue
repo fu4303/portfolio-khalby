@@ -1,6 +1,6 @@
 <template>
     <br /><br />
-    <div>
+    <div id="social-icons">
         <a href="//github.com/khalby786"><img src="https://raw.githubusercontent.com/Automattic/social-logos/master/svg-min/github.svg" /></a>
         <a href="//twitter.com/khalby786"><img src="https://raw.githubusercontent.com/Automattic/social-logos/master/svg-min/twitter-alt.svg" /></a>
         <a href="//instagram.com/khalby786"><img src="https://raw.githubusercontent.com/Automattic/social-logos/master/svg-min/instagram.svg" /></a>
@@ -19,8 +19,16 @@ export default {
 </script>
 
 <style scoped>
+#social-icons {
+    background-color: white;
+    isolation: isolate;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 img {
-    width: 50px;
-    margin-right: 20px;
+    width: 30px;
+    margin-right: 10px;
 }
 </style>

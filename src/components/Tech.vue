@@ -72,5 +72,6 @@ export default {
 
 [class~=colored] {
   font-size: 50px;
+  isolation: isolate;
 }
 </style>
