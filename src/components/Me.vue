@@ -17,8 +17,7 @@ export default {
     /*  */
 
     .me {
-        width: 50vw;
-        margin: 0px;
+        width: 20vw;
         display: block !important;
     }
 

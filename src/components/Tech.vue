@@ -62,16 +62,16 @@ export default {
 <style scoped>
 #tech {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(5, 100px);
   grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 10px;
-  grid-row-gap: 60px; 
+  grid-column-gap: 0px;
+  grid-row-gap: 10px; 
   text-align: center;
   overflow: auto;
 }
 
 [class~=colored] {
-  font-size: 50px;
+  font-size: 30px;
   isolation: isolate;
 }
 </style>

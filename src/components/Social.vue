@@ -8,7 +8,7 @@
         <a href="https://www.youtube.com/channel/UCrpLyU8D2wajlTae6qZx_eQ"><img src="https://raw.githubusercontent.com/Automattic/social-logos/master/svg-min/youtube.svg" /></a>
         <a href="//codepen.io/khalby786"><img src="https://raw.githubusercontent.com/Automattic/social-logos/master/svg-min/codepen.svg" /></a>
         <a href="//reddit.com/u/khalby786"><img src="https://raw.githubusercontent.com/Automattic/social-logos/master/svg-min/reddit.svg" /></a>
-        <a href="mailto:khalby786@gmail.com"><img src="https://raw.githubusercontent.com/Automattic/social-logos/master/svg-min/mail.svg" /></a>
+        <a href="mailto:hello@khaleelgibran.com"><img src="https://raw.githubusercontent.com/Automattic/social-logos/master/svg-min/mail.svg" /></a>
     </div>
 </template>
 

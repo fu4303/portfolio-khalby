@@ -12,16 +12,17 @@
       <li>I really like donuts.</li>
       <li>I really, really like donuts.</li>
       <li>I create 3D art when I'm not doing other stuff.</li>
+      <li>I write a <a href="https://blog.khaleelgibran.com">blog</a>!</li>
       <li><b>Favourite OS</b> Ubuntu</li>
       <li><b>Favourite food</b> RICE!</li>
       <li><b>Favourite movie</b> <a href="https://en.wikipedia.org/wiki/Bumblebee_(film)">Bumblebee</a></li>
-      <li><b><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Favourite song</a></b> <a href="https://www.youtube.com/watch?v=7C2z4GqqS5E">Fake Love by BTS</a></li>
+      <li><b><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Favourite song(s)</a></b> <a href="https://www.youtube.com/watch?v=Ow_PNMtMGhU">Roadtrip by Dream ft. PmBata</a>, <a href="https://www.youtube.com/watch?v=7C2z4GqqS5E">Fake Love by BTS</a></li>
     </ul>
     <h5>tech</h5>
     <Tech />
     <br><br>
     <h5>social</h5>
-    <i>i'm @khalby786 on all social platforms, maybe except for <a href="https://dsc.bio/khalby786">discord</a> 🤷</i>
+    <span>i'm <code>@khalby786</code> on all social platforms, except for <a href="https://dsc.bio/khalby786">discord</a> 🤷</span>
     <Social />
     <Footer />
   </div>
