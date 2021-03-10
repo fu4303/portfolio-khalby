@@ -24,6 +24,9 @@
     <h5>social</h5>
     <span>i'm <code>@khalby786</code> on all social platforms, except for <a href="https://dsc.bio/khalby786">discord</a> 🤷</span>
     <Social />
+    <br><br>
+    <h5>projects</h5>
+    <Projects />
     <Footer />
   </div>
 </template>
@@ -32,6 +35,7 @@
 import Me from '@/components/Me.vue';
 import Tech from '@/components/Tech.vue';
 import Social from '@/components/Social.vue';
+import Projects from '@/components/Projects.vue';
 
 export default {
   name: 'Home',
@@ -39,6 +43,7 @@ export default {
     Me, 
     Tech, 
     Social,
+    Projects
   }
 }
 </script>

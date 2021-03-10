@@ -50,6 +50,7 @@ body {
   font-variant-ligatures: contextual common-ligatures;
   font-feature-settings: 'kern', 'liga', 'calt';
   height: auto;
+  --block-shadow-color: #ff6b6b;
 }
 
 ::selection {
@@ -76,6 +77,7 @@ a {
 #top {
   background: #ff6b6b;
   position: fixed;
+  z-index: 999;
 }
 
 #top {
