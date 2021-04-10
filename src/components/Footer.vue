@@ -13,7 +13,7 @@ export default {
     name: "Footer",
     data: function() {
         return {
-            theme: "dark",
+            theme: "light",
             darkmode: new Darkmode()
         }
     },
